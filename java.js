@@ -1,6 +1,6 @@
 var button = document.getElementById("enter");
 var input = document.getElementById("userinput");
-var ul = document.querySelector("ul");
+var ul = doc
 
 //function to create new element after input + create a del button + make a toggle for the created element
 function createListElement(textContent) {
