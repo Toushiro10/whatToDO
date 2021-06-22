@@ -15,7 +15,7 @@ for (i = 0; i < existedLi.length; i++) {
   delBut.className = "close";
   existedLi[i].appendChild(delBut);
   delBut.addEventListener("click", function() {
-			i.remove()});
+			i.remove});
  }
 
 //click on the delete button of existd list
