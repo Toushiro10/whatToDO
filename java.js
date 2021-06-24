@@ -36,10 +36,12 @@ function createListElement(textContent) {
 	function addToListAfterEnter(event) {
 		if (inputLength() > 0 && event.keyCode === 13) {
         createListElement(input.value);
+        
+    }
 }
 
-function addExampleListElements() {
-    var example_tasks = [
+    function addExampleListElements() {
+        var example_tasks = [
         "Bread",
         "Milk",
         "Sugar",
@@ -58,3 +60,6 @@ input.addEventListener("keypress", addToListAfterEnter);
 
 /* adding example tasks*/
 window.onload = addExampleListElements(); 
+
+
+
